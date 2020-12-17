@@ -9,7 +9,9 @@ from selenium.webdriver.support.select import Select
 ###################################
 
 def site_login(driver):
-    driver.get("https://bit.ly/labschoolscovid")
+
+    # Code is designed for this site: https://bit.ly/labschoolscovid
+    driver.get("https://")
 
     # Name 
     driver.find_element_by_xpath("//input[@jsname='YPqjbf']").send_keys('Your Name')
