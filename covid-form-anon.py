@@ -54,11 +54,3 @@ def site_login(driver):
 driver = webdriver.Firefox()
 driver.set_window_size(1200, 1500)
 site_login(driver)
-
-
-# move to the element and click then perform the operation
-#action.move_to_element(source).click().perform()
-#source = driver.find_element_by_xpath("//div[@data-value='Hayward']").click()
-#driver.find_element_by_class_name("quantumWizMenuPaperselectOptionList").click()
-
-
